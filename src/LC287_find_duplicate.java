@@ -1,6 +1,6 @@
 import java.util.HashMap;
 
-public class LC287 {
+public class LC287_find_duplicate {
     static int duplicate(int[] a){
         int n=a.length;
         HashMap<Integer,Integer> map=new HashMap<>();
