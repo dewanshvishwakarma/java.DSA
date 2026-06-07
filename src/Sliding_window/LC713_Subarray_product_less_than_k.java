@@ -1,4 +1,7 @@
 package Sliding_window;
+//leetcode link=https://leetcode.com/problems/subarray-product-less-than-k/description/
+//question are an variable sliding window easy hai take 1 attempt to done
+
 
 import javax.swing.plaf.IconUIResource;
 
