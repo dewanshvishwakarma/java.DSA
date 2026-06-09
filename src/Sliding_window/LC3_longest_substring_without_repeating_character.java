@@ -3,7 +3,7 @@ package Sliding_window;
 import java.util.HashSet;
 import java.util.Set;
 //approach 1 with the help of Hashset
-public class LC3_longest_repeating_sub_string {
+public class LC3_longest_substring_without_repeating_character {
     static int Str(String s){
         Set<Character> set=new HashSet<>();
         int n=s.length();
