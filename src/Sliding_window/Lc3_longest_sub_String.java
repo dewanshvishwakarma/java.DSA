@@ -21,7 +21,6 @@ return maxL;
     public static void main(String[] args) {
     String s1="bbbbb";
     String s2= "pwwkew";
-    int result=Sub_String(s2);
     String s3="abcdcdea";
     int result=Sub_String(s3);
         System.out.println(result);
