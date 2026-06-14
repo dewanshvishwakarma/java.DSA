@@ -1,7 +1,7 @@
 package prefix_sum;
 
 import java.util.HashMap;
-
+//LC=https://leetcode.com/problems/subarray-sum-equals-k/description/
 public class LC560_Subarray_Sum_Equals_K {
 
     static int sub_array(int[] a,int k){
