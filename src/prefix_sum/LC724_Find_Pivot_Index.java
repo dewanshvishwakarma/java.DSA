@@ -1,6 +1,6 @@
 package prefix_sum;
-
-public class pivot_index {
+//link= https://leetcode.com/problems/find-pivot-index/description/
+public class LC724_Find_Pivot_Index {
 
 
 
@@ -23,6 +23,8 @@ public class pivot_index {
 return -1;
     }
     public static void main(String[] args) {
-
+//int[] a={1,7,3,6,5,6};
+//int r=pivot(a);
+//        System.out.println(r);
     }
 }
