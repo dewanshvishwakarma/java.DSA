@@ -21,6 +21,8 @@ public class LC560_Subarray_Sum_Equals_K {
         return count;
     }
     public static void main(String[] args) {
-
+int[] a={1,2,3};
+int r=sub_array(a,3);
+        System.out.println("count of sub array is " + r);
     }
 }
