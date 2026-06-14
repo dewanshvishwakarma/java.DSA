@@ -23,8 +23,8 @@ public class LC724_Find_Pivot_Index {
 return -1;
     }
     public static void main(String[] args) {
-//int[] a={1,7,3,6,5,6};
-//int r=pivot(a);
-//        System.out.println(r);
+int[] a={1,7,3,6,5,6};
+int r=pivot(a);
+        System.out.println(r);
     }
 }
