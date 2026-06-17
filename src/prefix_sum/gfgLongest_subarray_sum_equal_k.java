@@ -2,7 +2,7 @@ package prefix_sum;
 //https://www.geeksforgeeks.org/problems/longest-sub-array-with-sum-k0809/1
 import java.util.HashMap;
 
-public class Longest_subarray_sum_equal_k {
+public class gfgLongest_subarray_sum_equal_k {
     static int Sub(int[] a, int k){
         HashMap<Integer,Integer> map=new HashMap<>();
         map.put(0,-1);
