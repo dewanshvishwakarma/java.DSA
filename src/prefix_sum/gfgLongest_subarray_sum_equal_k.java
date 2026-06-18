@@ -23,8 +23,8 @@ public class gfgLongest_subarray_sum_equal_k {
         return result;
     }
     public static void main(String[] args) {
-        int[] a={5,2,2,5,1,1,1,1,4};
-        int r=Sub(a,4);
+        int[] a={-1,-1,1,-1,-1,-1,1,1};
+        int r=Sub(a,0);
         System.out.println(r);
     }
 }
