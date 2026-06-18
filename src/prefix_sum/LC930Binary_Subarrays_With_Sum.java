@@ -1,7 +1,7 @@
 package prefix_sum;
 
 import java.util.HashMap;
-
+//https://leetcode.com/problems/binary-subarrays-with-sum/
 public class LC930Binary_Subarrays_With_Sum {
     class Solution {
         public int numSubarraysWithSum(int[] nums, int goal) {
