@@ -3,7 +3,7 @@ package prefix_sum;
 import java.util.HashMap;
 
 public class LC1248_Count_Number_of_Nice_Subarrays {
-    public int numberOfSubarrays(int[] nums, int k) {
+    static int numberOfSubarrays(int[] nums, int k) {
         HashMap<Integer,Integer> map=new HashMap<>();
         map.put(0,1);
         for(int i=0;i<nums.length;i++){
@@ -26,5 +26,11 @@ public class LC1248_Count_Number_of_Nice_Subarrays {
 
         }
         return r;
+    }
+
+    public static void main(String[] args) {
+        int[] a={1,1,2,1,1};
+        int r=numberOfSubarrays(a,3);
+
     }
 }
