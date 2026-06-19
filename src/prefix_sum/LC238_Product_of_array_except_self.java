@@ -1,7 +1,10 @@
 package prefix_sum;
+
+import java.util.Arrays;
+
 //https://leetcode.com/problems/product-of-array-except-self/description/
 public class LC238_Product_of_array_except_self {
-    public int[] productExceptSelf(int[] nums) {
+    static int[] productExceptSelf(int[] nums) {
         int n=nums.length;
         int[] ans=new int[n];
         ans[0]=1;
@@ -15,6 +18,8 @@ public class LC238_Product_of_array_except_self {
     }
 
     public static void main(String[] args) {
+        int[] a={1,2,3,4};
+        int[] r=productExceptSelf(a);
+        System.out.println(Arrays.toString(r));
     }
-
 }
