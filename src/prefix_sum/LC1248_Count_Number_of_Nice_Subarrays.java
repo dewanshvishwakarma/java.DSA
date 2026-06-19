@@ -1,5 +1,5 @@
 package prefix_sum;
-
+//https://leetcode.com/problems/count-number-of-nice-subarrays/
 import java.util.HashMap;
 
 public class LC1248_Count_Number_of_Nice_Subarrays {
