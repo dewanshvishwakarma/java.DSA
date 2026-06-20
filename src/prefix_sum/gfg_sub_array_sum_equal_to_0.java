@@ -1,5 +1,5 @@
 package prefix_sum;
-
+//gfg=https://www.geeksforgeeks.org/problems/subarray-with-0-sum-1587115621/1
 import java.util.HashSet;
 
 public class gfg_sub_array_sum_equal_to_0 {
