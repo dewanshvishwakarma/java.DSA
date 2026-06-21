@@ -1,15 +1,15 @@
 package Linked_list;
 //learn insertion at end;
 
-class Node{
-    int data;
-    Node next;
-
-    Node(int data){
-        this.data=data;
-        this.next=null;
-    }
-}
+//class Node{
+//    int data;
+//    Node next;
+//
+//    Node(int data){
+//        this.data=data;
+//        this.next=null;
+//    }
+//}
 public class LL4 {
     static Node Add_last(Node head,int data){
         Node newNode=new Node(data);
