@@ -1,13 +1,13 @@
 package Linked_list;
-class Node{
-    int data;
-    Node next;
-
-    Node(int data){
-        this.data=data;
-        this.next=null;
-    }
-}
+//class Node{
+//    int data;
+//    Node next;
+//
+//    Node(int data){
+//        this.data=data;
+//        this.next=null;
+//    }
+//}
 public class LL5 {
     static Node delete_beg(Node head){
         if (head==null){
