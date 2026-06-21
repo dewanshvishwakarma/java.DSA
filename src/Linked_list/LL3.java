@@ -1,13 +1,13 @@
 package Linked_list;
-class Node{
-    int data;
-    Node next;
-
-    Node(int data){
-        this.data=data;
-        this.next=null;
-    }
-}
+//class Node{
+//    int data;
+//    Node next;
+//
+//    Node(int data){
+//        this.data=data;
+//        this.next=null;
+//    }
+//}
 public class LL3 {
 
     static Node Add_First(Node head,int data){
