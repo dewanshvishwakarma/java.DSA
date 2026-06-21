@@ -2,15 +2,15 @@ package Linked_list;
 // learn insert in first without function
 import java.util.Stack;
 
-class Node{
-    int data;
-    Node next;
-
-    Node(int data){
-        this.data=data;
-        this.next=null;
-    }
-}
+//class Node{
+//    int data;
+//    Node next;
+//
+//    Node(int data){
+//        this.data=data;
+//        this.next=null;
+//    }
+//}
 public class LL2 {
     public static void main(String[] args) {
         Node head=new Node(20);
