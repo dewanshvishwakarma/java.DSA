@@ -1,6 +1,17 @@
 package Linked_list;
 
+import java.util.HashMap;
+
 public class LL_detect_loop {
+
+
+//    static boolean detect2(Node head){
+//        HashMap<Node,Integer> map=new HashMap<>();
+//        Node temp=head;
+//        while (temp!=null){
+//            map.put()
+//        }
+//    }
     static boolean detect(Node head){
         Node s=head;
         Node f=head;
