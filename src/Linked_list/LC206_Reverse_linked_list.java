@@ -1,6 +1,6 @@
 package Linked_list;
 
-public class Reverse_linked_list {
+public class LC206_Reverse_linked_list {
     static Node reverse(Node head){
         Node pre=null;
         Node current=head;
