@@ -1,5 +1,5 @@
 package stack;
-
+//link=https://leetcode.com/problems/valid-parentheses/description/
 import java.util.Stack;
 
 public class LC20_valid_parenthesis {
