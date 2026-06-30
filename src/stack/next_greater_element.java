@@ -3,7 +3,7 @@ package stack;
 import java.lang.reflect.Array;
 import java.util.Arrays;
 import java.util.Stack;
-
+//https://www.geeksforgeeks.org/problems/next-larger-element-1587115620/1
 public class next_greater_element {
     static int[] nge(int[] a){
         int n= a.length;
