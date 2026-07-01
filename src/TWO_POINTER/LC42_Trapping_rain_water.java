@@ -21,7 +21,9 @@ public class LC42_Trapping_rain_water {
         }
         return ans;
     }
-    static void main(String[] args) {
-
+    public static void main(String[] args) {
+int[] h={3, 0, 1, 0, 4, 0, 2};
+int ans=TRW(h);
+        System.out.println(ans);
     }
 }
