@@ -2,7 +2,7 @@ package stack;
 
 import java.util.Arrays;
 import java.util.Stack;
-
+//https://www.geeksforgeeks.org/problems/previous-smaller-element/1
 public class left_smaller {
     static int[] NSL(int[] a){
         Stack<Integer> s=new Stack<>();
