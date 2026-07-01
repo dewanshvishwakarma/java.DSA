@@ -2,7 +2,7 @@ package stack;
 
 import java.util.Arrays;
 import java.util.Stack;
-
+//GFG=https://www.geeksforgeeks.org/problems/previous-greater-element/1
 public class next_greater_left {
     static int[] NGL(int[] a){
         Stack<Integer> s=new Stack<>();
