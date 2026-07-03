@@ -58,7 +58,7 @@ public class LC20_valid_parenthesis {
         return st.isEmpty();
     }
     public static void main(String[] args) {
-String s="[{()[]}()";
+String s="[{()[]}()]";
 boolean result=Isvalid(s);
 boolean res=Lc20(s);
         System.out.println(result);
