@@ -5,19 +5,7 @@ import java.util.Arrays;
 import java.util.Stack;
 //https://www.geeksforgeeks.org/problems/next-larger-element-1587115620/1
 public class next_greater_element {
-    static int[] nge(int[] a){
-        int n= a.length;
-        for (int i=0;i<n;i++){
-            for (int j=i+1;j<n;j++){
-                if (a[j]>a[i]){
-                    a[i]=a[j];
-                    break;
-                }
-            }
 
-        }
-        return a;
-    }
 
     static int[] NGE(int[] a){
         Stack<Integer> st=new Stack<>();
