@@ -1,7 +1,7 @@
 package stack;
 
 import java.util.Stack;
-
+//https://leetcode.com/problems/next-greater-element-ii/description/
 public class next_greater_element2 {
     static int[] NGE2(int [] a){
         int n=a.length;
