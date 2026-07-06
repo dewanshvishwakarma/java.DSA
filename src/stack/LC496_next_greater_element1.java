@@ -5,7 +5,38 @@ import java.util.HashMap;
 import java.util.Stack;
 //https://leetcode.com/problems/next-greater-element-i/
 public class LC496_next_greater_element1 {
-    static int[]  nextGreaterElement(int[] a,int[] b){
+    static int[] nextGreaterElement(int[] a, int[] b){
+        int m=a.length;
+        int n=b.length;
+        int[] ans=new int[m];
+
+        //search element index at array b
+        for ( int i=0;i<m;i++){
+            int index=-1;
+            for (int j=0;j<n;j++){
+                if(a[i]==b[j]){
+                    index=j;
+                    break;
+                }
+            }
+            ans[i]=-1;
+            for (int j=index+1;j<n;j++){
+                if (b[j]>a[i]){
+                    ans[i]=b[j];
+                    break;
+                }
+            }
+
+        }
+        return ans;
+    }
+    //  Time = O(m*n)
+//    Space = O(1)
+
+// solve using Stack
+
+
+    static int[]  nextGreaterElement2(int[] a,int[] b){
         HashMap<Integer,Integer> map=new HashMap<>();
         Stack<Integer> s=new Stack<>();
         int m=a.length;
