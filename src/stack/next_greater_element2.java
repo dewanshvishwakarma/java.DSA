@@ -28,10 +28,12 @@ public class next_greater_element2 {
 
         }
 return ans;
-
     }
 
+//    Time = O(m*n)
+//    Space = O(1)
 
+// solve using Stack
     static int[] NGE2(int [] a){
         int n=a.length;
         int[] ans=new int[n];
@@ -52,7 +54,8 @@ return ans;
         }
         return ans;
     }
-
+//    Time = O(m+n)
+//    Space = O(n)
     public static void main(String[] args) {
         int[] a={4,1,2};
         int[ ] b={1,3,4,2};
