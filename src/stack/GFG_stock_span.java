@@ -8,7 +8,8 @@ public class GFG_stock_span {
         int n=a.length;
         Stack<Integer> s=new Stack<>();
         int[] ans=new int[n];
-        for(int i=0;i<n;i++){
+
+        for (int i=0;i<n;i++){
             while (!s.isEmpty() && a[s.peek()]<=a[i]){
                 s.pop();
             }
@@ -17,9 +18,9 @@ public class GFG_stock_span {
             }else {
                 ans[i]=i-s.peek();
             }
-           s.push(i);
+            s.push(i);
         }
-        return ans;
+return ans;
     }
     public static void main(String[] args) {
         int[] a={100,80,60,70,60,75,85};
