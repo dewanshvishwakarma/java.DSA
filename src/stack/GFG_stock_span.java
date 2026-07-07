@@ -23,7 +23,7 @@ public class GFG_stock_span {
 return ans;
     }
     public static void main(String[] args) {
-        int[] a={100,80,60,70,60,75,85};
+        int[] a={100,80,90,120};
         int[] ans=Stock_span(a);
         System.out.println(Arrays.toString(ans));
 
