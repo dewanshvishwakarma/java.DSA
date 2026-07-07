@@ -18,6 +18,17 @@ public class Q1 {
              a[r] = x;
          }
     }
+
+     void dequeue(){
+         if (f==-1 && r==-1 ) {
+             System.out.println("queue is empty");
+         } else if (f==r) {
+             r=-1;
+             f=-1;
+         }else {
+             f++;
+         }
+     }
     public static void main(String[] args) {
 
     }
