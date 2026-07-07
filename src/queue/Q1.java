@@ -2,9 +2,9 @@ package queue;
 
 public class Q1 {
 //    implement queue using array
-    int[] a=new int[10];
-    int f=-1;
-    int r=-1;
+   static int[] a=new int[10];
+   static int f=-1;
+   static int r=-1;
 
      void enqueue(int x){
          if (r==a.length-1){
@@ -19,7 +19,7 @@ public class Q1 {
          }
     }
 
-     void dequeue(){
+    static void dequeue(){
          if (f==-1 && r==-1 ) {
              System.out.println("queue is empty");
              return;
@@ -31,7 +31,7 @@ public class Q1 {
          }
      }
 
-     void display(){
+    static void display(){
          if (f==-1 && r==-1){
              return;
          }else{
@@ -43,7 +43,7 @@ public class Q1 {
      }
 
 
-     void peek(){
+    static void peek(){
          if (f==-1&& r==-1){
              return;
          }else {
@@ -51,6 +51,19 @@ public class Q1 {
          }
      }
     public static void main(String[] args) {
+         Q1 q=new Q1();
+         q.enqueue(10);
+         q.enqueue(20);
+         q.enqueue(30);
+         q.enqueue(40);
+
+        display();
+
+        dequeue();
+        dequeue();
+        display();
+        peek();
+
 
     }
 }
