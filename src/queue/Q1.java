@@ -22,11 +22,32 @@ public class Q1 {
      void dequeue(){
          if (f==-1 && r==-1 ) {
              System.out.println("queue is empty");
+             return;
          } else if (f==r) {
              r=-1;
              f=-1;
          }else {
              f++;
+         }
+     }
+
+     void display(){
+         if (f==-1 && r==-1){
+             return;
+         }else{
+            for (int i=f;i<r+1;i++){
+                 System.out.println(a[i] + " ");
+            }
+             System.out.println();
+         }
+     }
+
+
+     void peek(){
+         if (f==-1&& r==-1){
+             return;
+         }else {
+             System.out.println(a[f]);
          }
      }
     public static void main(String[] args) {
