@@ -27,5 +27,8 @@ public class LC739_daily_temperature {
     }
 
     public static void main(String[] args) {
+        int[] a={73,74,75,71,69,72,76,73};
+        int[] ans=dailyTemperatures(a);
+        System.out.println(Arrays.toString(ans));
     }
 }
