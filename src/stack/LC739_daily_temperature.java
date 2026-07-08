@@ -2,7 +2,7 @@ package stack;
 
 import java.util.Arrays;
 import java.util.Stack;
-
+//https://leetcode.com/problems/daily-temperatures/
 public class LC739_daily_temperature {
 //    we have to given an array of temperature of an days and we find to find the
 //    gap between the next greater temperature
