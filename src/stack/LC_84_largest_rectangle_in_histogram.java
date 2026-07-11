@@ -44,5 +44,8 @@ return max_area;
     }
 
     public static void main(String[] args) {
+        int[] h={2,1,5,6,2,3};
+        int ans=largestRectangleArea(h);
+        System.out.println(ans);
     }
 }
