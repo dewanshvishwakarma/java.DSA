@@ -1,7 +1,7 @@
 package stack;
 
 import java.util.Stack;
-
+//https://leetcode.com/problems/largest-rectangle-in-histogram/
 public class LC_84_largest_rectangle_in_histogram {
     static int largestRectangleArea(int[] arr){
         Stack<Integer> s=new Stack<>();
