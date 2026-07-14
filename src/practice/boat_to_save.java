@@ -19,7 +19,7 @@ public class boat_to_save {
        return boat;
     }
     static void main(String[] args) {
-        int[] a={3,5,3,4};
+        int[] a={3,5,5,4};
         int result=save(a,5);
         System.out.println(result);
     }
