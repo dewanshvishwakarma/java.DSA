@@ -33,7 +33,7 @@ public class LC739_daily_temperature {
         for(int i=n-1;i>=0;i--){
             while (!x.isEmpty() && a[x.peek()]<=a[i]){
                 x.pop();
-            }
+         }
             if (x.isEmpty()){
                 s[i]=0;
             }else{
