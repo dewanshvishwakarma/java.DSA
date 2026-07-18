@@ -47,6 +47,5 @@ return ans;
         int[] ans2=Stock_span2(a);
         System.out.println(Arrays.toString(ans));
         System.out.println(Arrays.toString(ans2));
-
     }
 }
