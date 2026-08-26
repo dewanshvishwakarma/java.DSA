@@ -1,7 +1,7 @@
 package two_D_array;
 
 import java.util.Scanner;
-
+//wap to teanspose the 2d array using the for loop
 public class transpose {
     public static void main(String[] args){
         Scanner sc=new Scanner(System.in);
