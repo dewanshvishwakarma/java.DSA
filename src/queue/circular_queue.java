@@ -1,7 +1,7 @@
 package queue;
 
 public class circular_queue {
-    static int[] a=new int[10];
+    static int[] a=new int[3];
     int n=a.length;
     static int f=-1;
     static int r=-1;
@@ -21,6 +21,10 @@ public class circular_queue {
         }
     }
     static void main(String[] args) {
+        circular_queue q=new circular_queue();
+        q.enqueue(10);
+        q.enqueue(20);
+        q.enqueue(30);
 
     }
 }
