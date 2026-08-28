@@ -32,6 +32,15 @@ public class circular_queue {
            f++;
         }
     }
+
+    static void peek(){
+        if(f==-1 && r==-1){
+            System.out.println("queue is empty");
+        }
+        else{
+            System.out.println(a[f]);
+        }
+    }
     static void display(){
         if (f==-1 && r==-1){
             return;
