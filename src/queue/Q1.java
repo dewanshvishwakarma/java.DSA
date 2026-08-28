@@ -6,19 +6,19 @@ public class Q1 {
    static int f=-1;
    static int r=-1;
 
-     void enqueue(int x){
-         if (r==a.length-1){
-             System.out.println("queue id overflow");
-         } else if(f==-1 && r==-1){
-            f=0;
-            r=0;
-            a[r]=x;
-        }else {
-             r++;
-             a[r] = x;
-         }
-    }
-
+      void enqueue(int x){
+          if(r==a.length-1) {
+              System.out.println("queue is overflow");
+              return;
+          } else if (f==-1 && r==-1) {
+              r++;
+              a[r]=x;
+          }
+          else {
+              r++;
+              a[r]=x;
+          }
+      }
     static void dequeue(){
          if (f==-1 && r==-1 ) {
              System.out.println("queue is empty");
