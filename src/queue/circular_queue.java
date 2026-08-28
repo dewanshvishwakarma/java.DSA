@@ -11,6 +11,9 @@ public class circular_queue {
             f=0;
             r=0;
             a[r]=x;
+        }else if ((r=(r+1)%n-1)==f){
+            System.out.println("overflow");
+            return;
         }
     }
     static void main(String[] args) {
