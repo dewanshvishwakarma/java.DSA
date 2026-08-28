@@ -11,13 +11,23 @@ public class circular_queue {
             f=0;
             r=0;
             a[r]=x;
-        }else if ((r=(r+1)%n-1)==f){
+        }else if ((r+1)%n==f){
             System.out.println("overflow");
             return;
         }
         else{
-            r=r+(r+1)%n;
+            r=(r+1)%n;
             a[r]=x;
+        }
+    }
+    static void display(){
+        if (f==-1 && r==-1){
+            return;
+        }else{
+            for (int i=f;i<r+1;i++){
+                System.out.println(a[i] + " ");
+            }
+            System.out.println();
         }
     }
     static void main(String[] args) {
@@ -25,6 +35,7 @@ public class circular_queue {
         q.enqueue(10);
         q.enqueue(20);
         q.enqueue(30);
-
+        q.enqueue(40);
+        display();
     }
 }
