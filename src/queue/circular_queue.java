@@ -20,6 +20,18 @@ public class circular_queue {
             a[r]=x;
         }
     }
+
+    static void dequeue(){
+        if(f==-1 && r==-1){
+            System.out.println("queue is empty right");
+        }
+       else if(f==r){
+            r=-1;f=-1;
+        }
+       else {
+           f++;
+        }
+    }
     static void display(){
         if (f==-1 && r==-1){
             return;
