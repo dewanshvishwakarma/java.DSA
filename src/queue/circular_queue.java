@@ -2,7 +2,7 @@ package queue;
 
 public class circular_queue {
     static int[] a=new int[3];
-    int n=a.length;
+   static int n=a.length;
     static int f=-1;
     static int r=-1;
 //     insert an element in circular queue
@@ -42,14 +42,22 @@ public class circular_queue {
         }
     }
     static void display(){
-        if (f==-1 && r==-1){
+
+        if(f == -1 && r == -1){
+            System.out.println("Queue is empty");
             return;
-        }else{
-            for (int i=f;i<r+1;i++){
-                System.out.println(a[i] + " ");
-            }
-            System.out.println();
         }
+
+        int i = f;
+
+        do{
+            System.out.print(a[i] + " ");
+
+            i = (i + 1) % n;
+
+        }while(i != f);
+
+        System.out.println();
     }
     static void main(String[] args) {
         circular_queue q=new circular_queue();
