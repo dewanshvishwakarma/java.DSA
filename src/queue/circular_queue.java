@@ -15,6 +15,10 @@ public class circular_queue {
             System.out.println("overflow");
             return;
         }
+        else{
+            r=r+(r+1)%n;
+            a[r]=x;
+        }
     }
     static void main(String[] args) {
 
