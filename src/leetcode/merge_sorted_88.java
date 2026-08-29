@@ -11,7 +11,7 @@ public class merge_sorted_88 {
         int j=0;
         while (i<m && j<n){
             if (a[i]<=b[j]){
-                result[k]=a[i];
+                result[k]=b[i];
                 k++;
                 i++;
             }else {
@@ -34,14 +34,42 @@ public class merge_sorted_88 {
             k++;
         }
 return result;
+    }
+//    now solve without extra space
 
+    static void merge2(int[] a,int[] b, int m,int n){
+        int k=(m+n)-1;
+        int i=m-1;
+        int j=n-1;
+        while (i>=0 && j>=0){
+            if(a[i]<=b[j]){
+                a[k]=b[j];
+                k--;
+                j--;
+            }else{
+                a[k]=a[i];
+                k--;
+                i--;
+            }
+        }
+        while(j>=0){
+            a[k]=b[j];
+            k--;
+            j--;
+        }
     }
     static void main(String[] args) {
         int[] a={1,2,3};
         int[] b={1,2,2};
-        int[] r=merge(a,b);
-        for (int i=0;i<r.length;i++){
-            System.out.print(r[i] + " ");//1 1 2 2 2 3
+        int[] A={1,2,3,0,0,0};
+        int[] B={2,5,6};
+//        int[] r=merge(a,b);
+//        for (int i=0;i<r.length;i++){
+//            System.out.print(r[i] + " ");//1 1 2 2 2 3
+//        }
+        merge2(a,b,3,3);
+        for (int i=0;i<a.length;i++){
+            System.out.println(a[i]+ " ");
         }
     }
 }
