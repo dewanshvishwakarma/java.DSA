@@ -16,8 +16,8 @@ public class remove_duplicate_in_sorted26 {
         return i+1;
     }
     static void main(String[] args) {
-        int[] a={0,0,1,1,1,2,2,3,3,4};
-        int[] b={1,1,2};
+        int[] a={0,0,1,1,1,2,2,3,3,4};//5
+        int[] b={1,1,2};//2
         int r1=remove(b);
         int r=remove(a);
         System.out.println(r);
