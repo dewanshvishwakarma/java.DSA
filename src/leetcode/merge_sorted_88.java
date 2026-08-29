@@ -1,6 +1,7 @@
 package leetcode;
 
 public class merge_sorted_88 {
+//    solve first using an extra space int[] result(array)
     static int[]  merge(int[] a,int[] b){
         int m=a.length;
         int n=b.length;
