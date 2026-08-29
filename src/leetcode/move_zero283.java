@@ -1,7 +1,7 @@
 package leetcode;
 
 public class move_zero283 {
-
+//    29/8/2026
     static void move(int[] a){
         int n=a.length;
         int i=0;
