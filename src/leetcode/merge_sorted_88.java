@@ -40,7 +40,7 @@ return result;
         int[] b={1,2,2};
         int[] r=merge(a,b);
         for (int i=0;i<r.length;i++){
-            System.out.print(r[i] + " ");
+            System.out.print(r[i] + " ");//1 1 2 2 2 3
         }
     }
 }
