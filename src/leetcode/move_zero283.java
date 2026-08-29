@@ -20,7 +20,7 @@ public class move_zero283 {
         for(int i=0;i<a.length;i++){
             System.out.print(a[i]+ " ");
         }
-//1 3 12 0 0
+//output 1 3 12 0 0
     }
 }
 
