@@ -12,7 +12,6 @@ public class contain_duplicate217 {
             }else{
                 set.add(a[i]);
             }
-
         }
         return false;
     }
