@@ -89,6 +89,16 @@ public class traversal {
         int r=max_in_tree(root.right);
         return Math.max(l,Math.max(r,root.data));
     }
+
+    static int minimum_in_tree(Node root){
+        if (root==null){
+            return Integer.MAX_VALUE;
+        }
+        int lm=minimum_in_tree(root.left);
+        int rm=minimum_in_tree(root.right);
+        return Math.min(lm,Math.min(rm,root.data));
+    }
+
     static void main(String[] args) {
         Node root=new Node(10);
         root.left=new Node(20);
@@ -109,5 +119,7 @@ public class traversal {
         System.out.println("leaf node is an" + lnode);
         int max=max_in_tree(root);
         System.out.println("maximum is " + max);
+        int min=minimum_in_tree(root);
+        System.out.println("minimum tree is" + min);
     }
 }
