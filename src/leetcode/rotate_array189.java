@@ -1,16 +1,7 @@
 package leetcode;
 
 public class rotate_array189 {
-    static void reverse(int[] a ,int s,int e){
-         while (s<e){
-             int temp=a[s];
-             a[s]=a[e];
-             a[e]=temp;
-             s++;
-             e--;
-        }
 
-    }
     static void rotate(int[] a, int k){
         int n=a.length;
         k=k%n;
