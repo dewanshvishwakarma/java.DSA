@@ -14,12 +14,12 @@ public class rotate_array189 {
         int n=a.length;
         k=k%n;
         reverse(a,0,k);
-        reverse(a,k+1,n);
-        reverse(a,0,n);
+        reverse(a,k+1,n-1);
+        reverse(a,0,n-1);
     }
 
     static void main(String[] args) {
-        int[] a={1,2,3,4,5,6};
+        int[] a={1,2,3,4,5,6,7};
 
 //        reverse(a,0,3);
         rotate(a,3);
