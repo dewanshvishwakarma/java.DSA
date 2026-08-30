@@ -80,6 +80,15 @@ public class traversal {
 
         return left + right;
     }
+
+    static int max_in_tree(Node root){
+        if ( root==null){
+            return Integer.MIN_VALUE;
+        }
+        int l=max_in_tree(root.left);
+        int r=max_in_tree(root.right);
+        return Math.max(l,Math.max(r,root.data));
+    }
     static void main(String[] args) {
         Node root=new Node(10);
         root.left=new Node(20);
@@ -98,5 +107,7 @@ public class traversal {
         System.out.println("sum is " + s);
         int lnode=countLeaf(root);
         System.out.println("leaf node is an" + lnode);
+        int max=max_in_tree(root);
+        System.out.println("maximum is " + max);
     }
 }
