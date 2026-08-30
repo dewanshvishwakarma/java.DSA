@@ -10,9 +10,6 @@ class Node{
         this.left=null;
     }
 }
-
-
-
 public class tree_practice {
     static void preorder(Node root){
         if (root==null){
@@ -22,7 +19,6 @@ public class tree_practice {
         preorder(root.left);
         preorder(root.right);
     }
-
     static int height(Node root){
         if (root==null){
             return -1;
