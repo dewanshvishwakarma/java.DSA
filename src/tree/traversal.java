@@ -42,6 +42,37 @@ public class traversal {
         int h=Math.max(leftHeight,rigthHeight);
         return h+1;
    }
+
+   static int count(Node root){
+        if (root==null){
+            return 0;
+        }
+        int Cleft=count(root.left);
+        int Cright=count(root.right);
+        return Cleft+Cright+1;
+   }
+
+   static int sum(Node root){
+        if (root==null){
+            return 0;
+        }
+        int leftsum=sum(root.left);
+        int rifhtsum=sum(root.right);
+        return leftsum+rifhtsum+root.data;
+   }
+    static int countLeaf(Node root) {
+
+        if (root == null) {
+            return 0;
+        }
+        if (root.left==null && root.right==null) {
+            return 1;
+        }
+        int left = countLeaf(root.left);
+        int right = countLeaf(root.right);
+
+        return left + right;
+    }
     static void main(String[] args) {
         Node root=new Node(10);
         root.left=new Node(20);
@@ -54,6 +85,12 @@ public class traversal {
         inorder(root);
         int height=heightOfTree(root);
         System.out.println(height);
+        int count=count(root);
+        System.out.println("number of node is " + count);
+        int s=sum(root);
+        System.out.println("sum is " + s);
+        int lnode=countLeaf(root);
+        System.out.println("leaf node is an" + lnode);
 
     }
 }
