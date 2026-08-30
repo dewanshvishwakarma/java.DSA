@@ -91,6 +91,5 @@ public class traversal {
         System.out.println("sum is " + s);
         int lnode=countLeaf(root);
         System.out.println("leaf node is an" + lnode);
-
     }
 }
