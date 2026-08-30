@@ -2,6 +2,13 @@ package tree;
 
 import java.util.logging.SocketHandler;
 
+//day 30/8/2026
+//create node class
+//traversal inorder preorder postorder
+//height of tree
+//count node
+//count leaf node
+//sum of node
 public class traversal {
     static void preorder(Node root){
         if (root==null){
