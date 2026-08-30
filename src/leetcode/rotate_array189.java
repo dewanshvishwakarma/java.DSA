@@ -9,7 +9,6 @@ public class rotate_array189 {
              s++;
              e--;
         }
-
     }
     static void rotate(int[] a, int k){
         int n=a.length;
