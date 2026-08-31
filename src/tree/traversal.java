@@ -99,6 +99,18 @@ public class traversal {
         return Math.min(lm,Math.min(rm,root.data));
     }
 
+    static int countInternal(Node root){
+        if (root==null){
+            return 0;
+        }
+        if (root.left==null && root.right==null){
+            return 0;
+        }
+        int l=countInternal(root.left);
+        int r=countInternal(root.right);
+        return l+r+1;
+    }
+
     static void main(String[] args) {
         Node root=new Node(10);
         root.left=new Node(20);
