@@ -6,6 +6,5 @@ public class String_frequency {
         for (int i=0;i<10;i++){
             System.out.println(ch++);
         }
-
     }
 }
