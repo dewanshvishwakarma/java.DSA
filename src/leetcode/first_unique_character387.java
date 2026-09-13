@@ -48,4 +48,9 @@ public class first_unique_character387 {
         System.out.println("first unique character is " + result );
 
     }
+
+    //Given a string s, find the first non-repeating character in it and return its index. If it does not exist, return -1.
+//leetcode 387
+//https://leetcode.com/problems/first-unique-character-in-a-string/description/
+
 }
