@@ -41,4 +41,11 @@ public class first_unique_character387 {
         }
         return -1;
     }
+
+    public static void main(String[] args){
+        String s="dee";
+        int result=FUC1(s);
+        System.out.println("first unique character is " + result );
+
+    }
 }
