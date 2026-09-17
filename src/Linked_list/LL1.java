@@ -23,9 +23,8 @@ public class LL1 {
         Node temp=a;
         while (temp!=null){
             System.out.print(temp.data + "");
-            temp=temp.next;
+            temp=temp.next.next;
+            System.out.print(" ");
         }
     }
-
-
 }
