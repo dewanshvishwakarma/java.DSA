@@ -10,6 +10,16 @@ package Linked_list;
 //}
 public class LL3 {
 
+    static int length(Node n){
+        int count = 0;
+        Node temp=n;
+        while (temp!=null){
+            count++;
+            temp=temp.next;
+        }
+        return count;
+    }
+
     static Node Add_First(Node head,int data){
         Node newNode=new Node(data);
         newNode.next=head;
@@ -32,7 +42,9 @@ public class LL3 {
         head.next=b;
         b.next=c;
         c.next=d;
+        int len=length(head);
 
+        System.out.println("lenght is " + len);
         head=Add_First(head,10);
         head=Add_First(head,-10);
         display(head);
