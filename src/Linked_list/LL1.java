@@ -21,7 +21,7 @@ public class LL1 {
 //        by default e ka next=null;
 
         Node temp=a;
-        while (temp!=null){
+        while (temp!=null && temp.next!=null){
             System.out.print(temp.data + "");
             temp=temp.next.next;
             System.out.print(" ");
