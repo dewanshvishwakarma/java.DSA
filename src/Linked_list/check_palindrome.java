@@ -10,12 +10,12 @@ public class check_palindrome {
 
         Node s=head;
         Node f=head;
-
+// find middle
         while (f!=null && f.next!=null){
             s=s.next;
             f=f.next.next;
         }
-
+//reverse
         Node c=s;
         Node n=null;
         Node p=null;
@@ -25,6 +25,7 @@ public class check_palindrome {
             p=c;
             c=n;
         }
+//        compare
         Node r=p;
         Node l=head;
         while (r!=null){
