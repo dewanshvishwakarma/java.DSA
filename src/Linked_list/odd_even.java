@@ -17,6 +17,5 @@ public class odd_even {
     }
     static void main(String[] args) {
 
-
     }
 }
