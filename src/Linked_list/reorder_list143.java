@@ -26,7 +26,7 @@ public class reorder_list143 {
             Node t1=p1.next;
             Node t2=p2.next;
 
-            p1.next=p2
+            p1.next=p2;
             p2.next=t1;
             p1=t1;
 
