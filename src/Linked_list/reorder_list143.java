@@ -29,7 +29,7 @@ public class reorder_list143 {
             p1.next=p2;
             p2.next=t1;
             p1=t1;
-
+            p2=t2;
         }
     }
     public static void main(String[] args){
