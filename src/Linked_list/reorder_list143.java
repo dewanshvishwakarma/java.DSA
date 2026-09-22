@@ -34,5 +34,6 @@ public class reorder_list143 {
     }
     public static void main(String[] args){
 
+
     }
 }
