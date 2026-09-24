@@ -8,11 +8,11 @@ public class reverseList2_lc92 {
         }
 
         // Dummy node
-        ListNode dummy = new ListNode(0);
+        Node dummy = new Node(0);
         dummy.next = head;
 
         // Move prev to the node just before left
-        ListNode prev = dummy;
+        Node prev = dummy;
 
         for (int i = 1; i < left; i++) {
             prev = prev.next;
