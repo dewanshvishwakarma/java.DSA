@@ -19,7 +19,7 @@ public class reverseList2_lc92 {
         }
 
 
-        ListNode curr = prev.next;
+        Node curr = prev.next;
 
         for (int i = 0; i < right - left; i++) {
 
