@@ -1,5 +1,5 @@
 package Linked_list;
-
+//https://leetcode.com/problems/partition-list/
 public class LC_86_partition_list {
     public Node partition(Node head, int val){
         Node d1=new Node(0);
