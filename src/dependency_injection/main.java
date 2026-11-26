@@ -8,5 +8,6 @@ public class main {
        // so here we create an object of email and inject it to User
         // User have not required to create an object User only focus in their business logic
 
+
     }
 }
